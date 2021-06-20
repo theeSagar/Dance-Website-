@@ -1,0 +1,61 @@
+index.pug
+doctype html
+html
+  head
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+          
+          div#logo
+              img(src="/static/img/logo.jpg")
+              
+                
+          li #[a(href='/') work]
+          li #[a(href='https://www.merriam-webster.com/dictionary/about') About]
+          li #[a(/) Join Us]
+          li #[a(href='5') Services]
+          li #[a(href='4') Contact Us] 
+
+  section#introSection
+      div Welcome to the world of Dance that is Sagardang
+      div.small Dance Repete dance
+  section#missionSection
+    h2 Our mission
+    div.card
+      h3 Perfection in dance
+      div.card-box
+          div.card-img
+              img(src="/static/img/bg2.png")
+              p this is the best dance plat here you can get the best of dance
+    div.card
+      h3 Dance as you want
+      div.card-box
+          div.card-img
+              img(src="/static/img/bg4.jpg")
+              
+              p this is the best dance plat here you can get the best of dance
+    div.card
+      h3 More in Dance Carrear
+      div.card-box
+          div.card-img
+              img(src="/static/img/bg3.jpg")
+              p this is the best dance plat here you can get the best of dance 
+
+
+  section#sponsorsSection
+      h2 Our Sponsors
+      div#spon    
+            img(src="/static/img/mpl.png" , class='spImage')    
+            img(src="/static/img/blackB.png" , class='spImage')    
+            img(src="/static/img/apple.jpg" , class='spImage', alt='this is not showns')    
+            img(src="/static/img/micro.png" , class='spImage')  
+            img(src= "static/img/bg1.png", alt="", srcset="")  
+
+  footer#footer 
+    |strong Copyright
+    | thesagar and Co © 2020-2021  | All rights receved
+    script
+      include ../static/index.js

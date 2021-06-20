@@ -1,0 +1,15 @@
+extends base.pug 
+
+block scripts
+        script(src='/static/index.js')
+//-   script(src='/pets.js')
+
+block style
+    style
+        include ../static/style.css
+        include ../static/styleAbout.css
+        
+
+block content 
+        div.container
+            h2 What you want can be written in Join Us
